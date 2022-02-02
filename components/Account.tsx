@@ -34,10 +34,10 @@ const Account = ({ triedToEagerConnect }: AccountProps) => {
 
     async function switchToMainnet() {
       try {
-        if (chainId !== 1) {
+        if (chainId !== 137) {
           const error: null | Error = await (window as any).ethereum?.request({
             method: 'wallet_switchEthereumChain',
-            params: [{ chainId: '0x1' }]
+            params: [{ chainId: '0x89' }]
           })
           if (error) {
             throw error;

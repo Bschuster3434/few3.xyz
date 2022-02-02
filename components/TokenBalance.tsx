@@ -12,7 +12,7 @@ const TokenBalance = ({ tokenAddress, symbol }: TokenBalanceProps) => {
   const { account, chainId } = useWeb3React<Web3Provider>();
   const { data } = useTokenBalance(account, tokenAddress);
 
-  if (chainId !== 1) {
+  if (chainId !== 137) {
     return (
       <p>
         {`Switch to Ethereum Mainnet to see your ${symbol} tokens`}
