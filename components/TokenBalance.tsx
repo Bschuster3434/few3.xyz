@@ -15,7 +15,7 @@ const TokenBalance = ({ tokenAddress, symbol }: TokenBalanceProps) => {
   if (chainId !== 137) {
     return (
       <p>
-        {`Switch to Ethereum Mainnet to see your ${symbol} tokens`}
+        {`Switch to Polygon Network to see your ${symbol} tokens`}
       </p>
     )
   }
