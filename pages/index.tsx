@@ -37,7 +37,10 @@ export default function Home() {
           </p>
           <ul className="links">
             <li>
-              <a href="https://polygonscan.com/token/0x4a14ac36667b574b08443a15093e417db909d7a3">Token smart contract</a>
+             <a href="https://etherscan.io/address/0x95cd50f9d591630db85d95c932bbc704dc0ae92a#code">Ethereum Token smart contract</a>
+            </li>
+            <li>
+              <a href="https://polygonscan.com/token/0x4a14ac36667b574b08443a15093e417db909d7a3">Polygon Token smart contract</a>
             </li>
             <li>
               <a href="https://discord.gg/dNvYpeg2RC">Discord</a>
